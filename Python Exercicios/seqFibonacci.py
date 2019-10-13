@@ -1,0 +1,11 @@
+term1 = 0
+term2 = 1
+count = 3
+num = int(input("INFORME UM NUMERO PARA A SEQUENCIA: "))
+print(term1,term2,end="")
+while(count <=  num):
+    term3 = term1 + term2
+    print(" -", term3, end="")
+    term1 = term2
+    term2 = term3
+    count += 1
